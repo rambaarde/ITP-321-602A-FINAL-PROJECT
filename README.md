@@ -151,9 +151,6 @@ Files:
 
 ## Output Files
 
-Main log file:
-- [run_all_log.txt](output/run_all_log.txt)
-
 Plot files:
 - [plot_histogram.png](output/plot_histogram.png)
 - [plot_bar.png](output/plot_bar.png)
