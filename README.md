@@ -1,20 +1,55 @@
-# ITP 321 Finals Project
+<div align="center">
 
-This folder is the submission package for the finals project.
+<pre>
+==================================================
+                ITP 321 FINAL PROJECT
+==================================================
+ Capstone Submission Package
+ Topic: Loops, Functions, Visualization, Data Science
+==================================================
+
+ Team Members
+ - Kurt Santiago
+ - Ram Baarde
+
+ Output Focus
+ - for / while / repeat loops
+ - functions
+ - data visualization with ggplot2
+ - data science with dplyr
+
+==================================================
+</pre>
+
+</div>
+
+## Table of Contents
+
+- [Project Summary](#project-summary)
+- [Project Layout](#project-layout)
+- [Setup](#setup)
+- [Run Order](#run-order)
+- [Smoke Test](#smoke-test)
+- [Script Groups](#script-groups)
+- [Output Files](#output-files)
+- [Submission Notes](#submission-notes)
+
+## Project Summary
+
+This folder is the final submission package for the R/RStudio project.
 
 Goal:
-- cover `for`, `while`, and `repeat` loops
-- cover functions
-- cover data visualization with `ggplot2`
-- cover data science with `dplyr`
-- keep files readable and reproducible in RStudio
+- show `for`, `while`, and `repeat` loop usage
+- show function design and reuse
+- show plotting with `ggplot2`
+- show analysis with `dplyr`
+- keep everything readable, reproducible, and easy to run in RStudio
 
 ## Project Layout
 
 ```text
 final-proj/
   README.md
-  PLAN.md
   data/
   output/
   scripts/
@@ -26,7 +61,7 @@ final-proj/
     f_data_science/
 ```
 
-## Package Setup
+## Setup
 
 Install required packages if missing:
 
@@ -34,9 +69,9 @@ Install required packages if missing:
 install.packages(c("ggplot2", "dplyr"))
 ```
 
-## How To Run
+## Run Order
 
-Open `final-proj` as an RStudio project, then run scripts in this order:
+Open `final-proj` in RStudio, then run:
 
 ```r
 source("scripts/a_for/for_1.R")
@@ -61,7 +96,7 @@ From repo root `r-stud`, run:
 source("run_all.R")
 ```
 
-This checks the loop and function scripts. It skips `e` and `f`.
+This checks the loop and function scripts only. It skips `e` and `f`.
 
 ## Script Groups
 
@@ -130,10 +165,9 @@ Plot files:
 - `output/plot_scatter.png`
 - `output/plot_boxplot.png`
 
-## Notes For Submission
+## Submission Notes
 
-- Keep project root on relative paths.
+- Keep relative paths intact.
 - Run in fresh R session before submit.
 - Make sure `ggplot2` and `dplyr` are installed.
-- Keep README files in each script folder.
-
+- Keep the folder READMEs with the scripts.
