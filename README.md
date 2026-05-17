@@ -2,7 +2,7 @@
 
 <pre>
 ==================================================
-                ITP 321 FINAL PROJECT
+   ITP 321 FINAL PROJECT
 ==================================================
  Final Project Submission Package
  Topic: Loops, Functions, Visualization, Data Science
