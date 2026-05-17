@@ -22,15 +22,15 @@ source("final-proj/scripts/e_data_visualization/data_visualization_2.R")
 
 ## Output Files
 
-- `output/plot_histogram.png`
-- `output/plot_bar.png`
-- `output/plot_scatter.png`
-- `output/plot_boxplot.png`
+- [plot_histogram.png](../../output/plot_histogram.png)
+- [plot_bar.png](../../output/plot_bar.png)
+- [plot_scatter.png](../../output/plot_scatter.png)
+- [plot_boxplot.png](../../output/plot_boxplot.png)
 
 ## Expected Output
 
-- `data_visualization_1.R` saves `plot_histogram.png` and `plot_bar.png`
-- `data_visualization_2.R` saves `plot_scatter.png` and `plot_boxplot.png`
+- `data_visualization_1.R` saves [plot_histogram.png](../../output/plot_histogram.png) and [plot_bar.png](../../output/plot_bar.png)
+- `data_visualization_2.R` saves [plot_scatter.png](../../output/plot_scatter.png) and [plot_boxplot.png](../../output/plot_boxplot.png)
 - Console stays quiet unless `ggplot2` is missing
 
 ## Notes

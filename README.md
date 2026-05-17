@@ -152,13 +152,13 @@ Files:
 ## Output Files
 
 Main log file:
-- `output/run_all_log.txt`
+- [run_all_log.txt](output/run_all_log.txt)
 
 Plot files:
-- `output/plot_histogram.png`
-- `output/plot_bar.png`
-- `output/plot_scatter.png`
-- `output/plot_boxplot.png`
+- [plot_histogram.png](output/plot_histogram.png)
+- [plot_bar.png](output/plot_bar.png)
+- [plot_scatter.png](output/plot_scatter.png)
+- [plot_boxplot.png](output/plot_boxplot.png)
 
 ## Submission Notes
 
