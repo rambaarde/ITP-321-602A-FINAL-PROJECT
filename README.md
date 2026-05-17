@@ -29,14 +29,13 @@
 - [Project Layout](#project-layout)
 - [Setup](#setup)
 - [Run Order](#run-order)
-- [Smoke Test](#smoke-test)
 - [Script Groups](#script-groups)
-  - [`a_for`](#a_for)
-  - [`b_while`](#b_while)
-  - [`c_repeat`](#c_repeat)
-  - [`d_functions`](#d_functions)
-  - [`e_data_visualization`](#e_data_visualization)
-  - [`f_data_science`](#f_data_science)
+  - [`a_for`](scripts/a_for/for_1.R)
+  - [`b_while`](scripts/b_while/while_1.R)
+  - [`c_repeat`](scripts/c_repeat/repeat_1.R)
+  - [`d_functions`](scripts/d_functions/functions_1.R)
+  - [`e_data_visualization`](scripts/e_data_visualization/data_visualization_1.R)
+  - [`f_data_science`](scripts/f_data_science/data_science_1.R)
 - [Output Files](#output-files)
 - [Submission Notes](#submission-notes)
 
@@ -94,16 +93,6 @@ source("scripts/f_data_science/data_science_1.R")
 source("scripts/f_data_science/data_science_2.R")
 ```
 
-## Smoke Test
-
-From repo root `r-stud`, run:
-
-```r
-source("run_all.R")
-```
-
-This checks the loop and function scripts only. It skips `e` and `f`.
-
 ## Script Groups
 
 ### `a_for`
@@ -111,40 +100,40 @@ This checks the loop and function scripts only. It skips `e` and `f`.
 `for` loop examples.
 
 Files:
-- `for_1.R`
-- `for_2.R`
+- [for_1.R](scripts/a_for/for_1.R)
+- [for_2.R](scripts/a_for/for_2.R)
 
 ### `b_while`
 
 `while` loop examples.
 
 Files:
-- `while_1.R`
-- `while_2.R`
+- [while_1.R](scripts/b_while/while_1.R)
+- [while_2.R](scripts/b_while/while_2.R)
 
 ### `c_repeat`
 
 `repeat` loop examples.
 
 Files:
-- `repeat_1.R`
-- `repeat_2.R`
+- [repeat_1.R](scripts/c_repeat/repeat_1.R)
+- [repeat_2.R](scripts/c_repeat/repeat_2.R)
 
 ### `d_functions`
 
 Function examples.
 
 Files:
-- `functions_1.R`
-- `functions_2.R`
+- [functions_1.R](scripts/d_functions/functions_1.R)
+- [functions_2.R](scripts/d_functions/functions_2.R)
 
 ### `e_data_visualization`
 
 Plot scripts using `ggplot2`.
 
 Files:
-- `data_visualization_1.R`
-- `data_visualization_2.R`
+- [data_visualization_1.R](scripts/e_data_visualization/data_visualization_1.R)
+- [data_visualization_2.R](scripts/e_data_visualization/data_visualization_2.R)
 
 Outputs:
 - `output/plot_histogram.png`
@@ -157,8 +146,8 @@ Outputs:
 Analysis scripts using `dplyr`.
 
 Files:
-- `data_science_1.R`
-- `data_science_2.R`
+- [data_science_1.R](scripts/f_data_science/data_science_1.R)
+- [data_science_2.R](scripts/f_data_science/data_science_2.R)
 
 ## Output Files
 
