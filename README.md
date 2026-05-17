@@ -4,7 +4,7 @@
 ==================================================
                 ITP 321 FINAL PROJECT
 ==================================================
- Capstone Submission Package
+ Final Project Submission Package
  Topic: Loops, Functions, Visualization, Data Science
 ==================================================
 
