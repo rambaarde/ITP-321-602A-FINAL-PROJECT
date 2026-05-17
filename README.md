@@ -31,6 +31,12 @@
 - [Run Order](#run-order)
 - [Smoke Test](#smoke-test)
 - [Script Groups](#script-groups)
+  - [`a_for`](#a_for)
+  - [`b_while`](#b_while)
+  - [`c_repeat`](#c_repeat)
+  - [`d_functions`](#d_functions)
+  - [`e_data_visualization`](#e_data_visualization)
+  - [`f_data_science`](#f_data_science)
 - [Output Files](#output-files)
 - [Submission Notes](#submission-notes)
 
