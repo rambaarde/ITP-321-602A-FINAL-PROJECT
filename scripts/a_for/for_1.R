@@ -4,25 +4,15 @@
 #' @description Adds each item in a numeric vector and prints final total.
 #' @output `total`
 
-# --------------------
-# Data: numeric vector from `c()`
-# --------------------
+# Define a vector of numbers to add.
 numbers <- c(2, 4, 6, 8, 10)
+# Start the running total at zero.
 total <- 0
 
-# --------------------
-# Iteration: `for` assigns each element to `value`
-# --------------------
+# Add each number to the running total.
 for (value in numbers) {
   total <- total + value
 }
 
-# --------------------
-# Result: print total to Console
-# --------------------
+# Print the final total.
 print(total)
-
-# --------------------
-# Expected output
-# [1] 30
-# --------------------

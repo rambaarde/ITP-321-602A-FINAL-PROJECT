@@ -4,16 +4,12 @@
 #' @description Retries random draws until a success threshold is met.
 #' @output `success`, `attempts`
 
-# --------------------
-# State: seed, attempts, and success flag
-# --------------------
+# Start the retry counter and success flag.
 set.seed(456)
 attempts <- 0
 success <- FALSE
 
-# --------------------
-# Iteration: retry until `runif()` exceeds threshold
-# --------------------
+# Keep retrying until the random draw passes the threshold.
 repeat {
   attempts <- attempts + 1
   if (runif(1) > 0.7) {
@@ -22,16 +18,5 @@ repeat {
   }
 }
 
-# --------------------
-# Result: print named list
-# --------------------
+# Print the final success status and attempts.
 print(list(success = success, attempts = attempts))
-
-# --------------------
-# Expected output
-# $success
-# [1] TRUE
-#
-# $attempts
-# [1] 3
-# --------------------

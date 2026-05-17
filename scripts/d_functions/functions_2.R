@@ -5,9 +5,7 @@
 #' @param x Numeric vector.
 #' @return Named vector with n, mean, median, sd, min, and max.
 
-# --------------------
-# Function: return named summary statistics
-# --------------------
+# Define a summary function for numeric vectors.
 summarize_vector <- function(x) {
   c(
     n = length(x),
@@ -19,16 +17,6 @@ summarize_vector <- function(x) {
   )
 }
 
-# --------------------
-# Result: print summaries
-# --------------------
+# Test the function on mpg and hp.
 print(summarize_vector(mtcars$mpg))
 print(summarize_vector(mtcars$hp))
-
-# --------------------
-# Expected output
-#        n      mean    median        sd       min       max
-# 32.000000 20.090625 19.200000  6.026948 10.400000 33.900000
-#        n      mean    median        sd       min       max
-# 32.00000 146.68750 123.00000  68.56287  52.00000 335.00000
-# --------------------

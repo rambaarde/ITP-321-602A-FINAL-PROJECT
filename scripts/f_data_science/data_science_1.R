@@ -4,17 +4,13 @@
 #' @description Uses `dplyr` for grouped summary stats.
 #' @output `summary_table`
 
-# --------------------
-# Setup: attach `dplyr` after namespace check
-# --------------------
+# Load dplyr.
 if (!requireNamespace("dplyr", quietly = TRUE)) {
   stop("Package 'dplyr' is required for data_science scripts.", call. = FALSE)
 }
 library(dplyr)
 
-# --------------------
-# Analysis: group rows by `cyl` then reduce with `summarise()`
-# --------------------
+# Group and summarize by cylinder count.
 summary_table <- mtcars %>%
   group_by(cyl) %>%
   summarise(
@@ -24,15 +20,5 @@ summary_table <- mtcars %>%
     .groups = "drop"
   )
 
-# --------------------
-# Result: `print()` shows grouped tibble in Console
-# --------------------
+# Print the table.
 print(summary_table)
-
-# --------------------
-# Expected output
-#   cyl  avg_mpg    avg_hp   avg_wt
-# 1   4 26.66364  82.63636 2.285727
-# 2   6 19.74286 122.28571 3.117143
-# 3   8 15.10000 209.21429 3.999214
-# --------------------
