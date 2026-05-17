@@ -27,3 +27,13 @@ source("final-proj/scripts/e_data_visualization/data_visualization_2.R")
 - `output/plot_scatter.png`
 - `output/plot_boxplot.png`
 
+## Expected Output
+
+- `data_visualization_1.R` saves `plot_histogram.png` and `plot_bar.png`
+- `data_visualization_2.R` saves `plot_scatter.png` and `plot_boxplot.png`
+- Console stays quiet unless `ggplot2` is missing
+
+## Notes
+
+- Run from `final-proj` so relative paths work
+- Re-running the scripts overwrites the PNG files
